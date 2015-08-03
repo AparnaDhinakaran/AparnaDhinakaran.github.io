@@ -1,0 +1,344 @@
+\documentclass[9pt]{extarticle}
+%\documentclass{book}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{xcolor}
+%\usepackage[top=1in, bottom=1in, left=1 in, right=1 in]{geometry}
+\textwidth=6.7in
+\topmargin=-.75in
+\textheight=11in
+
+\raggedright
+
+\thispagestyle{empty} % hides page number
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+    \vspace{5pt}
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+	\vspace{5pt}
+}
+
+\newcommand{\contact}[5]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Huge \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newcommand{\tab}[1]{\hspace{.05\textwidth}}
+
+\newenvironment{body} {
+	\vspace*{-9pt}
+	\begin{changemargin}{-0.5in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newenvironment{position} {
+	\vspace*{-4pt}
+	\begin{changemargin}{-0.5in}{-0.5in}
+  }	
+	{\end{changemargin}
+}
+
+\newcommand{\name}[5]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Huge \scshape {\textbf{#1}}}\\ \smallskip
+			{\url{#2}}\\ \smallskip 
+			{#3}\\ \smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+\usepackage{array}
+
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% END RESUME DEFINITIONS
+
+%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[pdftex,
+            pdfauthor={Aparna Dhinakaran},
+            pdftitle={Aparna Dhinakaran - Resume},
+            pdfsubject={Aparna Dhinakaran - Resume},
+            pdfkeywords={aparna, dhinakaran, resume},
+            pdfproducer={Created using LaTex},
+            pdfcreator={pdflatex}]{hyperref}
+\sffamily            
+            
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+
+\name{APARNA DHINAKARAN}{www.aparnadhinakaran.com}{aparnadhinak@berkeley.edu $\bullet$ 510.676.3586}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Education
+\header{Education}
+\begin{body}
+	\textbf{University of California, Berkeley} \hfill \emph{August 2012 - May 2016}{} \\
+	\emph{Major: Electrical Engineering and Computer Science}
+	\vspace{-2pt} 
+	\begin{itemize}
+	\itemsep -2pt
+		\item[] Regents and Chancellor's Scholarship Recipient - Highest Undergraduate Honor 
+		\item[] Leadership Award Scholar - Most Prestigious Merit-Based Scholarship awarded by CAL Alumni Association
+		\end{itemize}
+\end{body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Coursework
+%\vspace*{-2pt}
+%\header{Relevant Coursework }
+%	\vspace{-1pt}
+%\begin{tabular}{R{2.5cm}p{5cm}R{2.5cm}p{6cm}}	
+%
+%  CS 189   & Machine Learning          & CS 194   & Internet of Things\\
+%  CS 170   & Algorithms                 & CS 174   & Artificial Intelligence\\
+%\end{tabular}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-2pt}
+% Skills
+\header{Skills}
+
+\begin{body}
+	\begin{itemize}
+    \itemsep -2pt
+	\item[] Python, Java, C, SQL, Matlab, \LaTeX
+	\item[] Hadoop, Apache Hive, Coda, Github, Eclipse, GeneCluster, TreeMap
+	%\item[] Coursework: Machine Learning, Internet of Things, Algorithms, Artificial Intelligence
+	%\item[] Github: {\url{https://github.com/AparnaDhinakaran}}
+	\end{itemize}
+\end{body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-2pt}
+% Experience
+\header{Work Experience}
+\begin{body}
+	\vspace{1pt}
+	\textbf{Software Engineer Intern, Apple Inc.} \hfill \emph{May 2015 - Aug 2015}\\
+	\vspace*{-4pt}
+	\begin{itemize}
+		\itemsep -0pt
+		\item[] Emerging Technologies Team
+	\end{itemize}
+
+%	\textbf{Engineer, Improving Outcomes} \hfill \emph{Dec 2014 - May 2015}\\
+%	\vspace*{-4pt}
+%	\begin{itemize} \itemsep -0pt  % reduce space between items
+%		\item[] Improving Outcomes is a health-tech startup based in Berkeley, CA. Our platform enables healthcare providers to seamlessly collect information on the functional, symptomatic and quality-of-life outcomes of care using clinically validated patient-reported surveys. 
+%	\end{itemize}
+    
+    \textbf{Machine Learning Engineer Intern, TubeMogul} 
+     \hfill \emph{June 2014 - August 2014}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item[] Developed clickbot detection algorithm for differentiating between humans and bots for advertising campaigns. 
+		\item[] Created Hive Tables to collect site visitation and frequency statistics for user differentiation. Detected patterns in user activity using GeneCluster and Treeview to determine key features for hierarchical and multidimensional clustering. Integrated Boosted Decision Trees and Neural Nets in development of bot taxonomy. 
+	\end{itemize}
+    	
+	\textbf{UC Berkeley Mathematics Teaching Assistant} 
+	 \hfill \emph{August 2013 - May 2014}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item[] Taught UC Berkeley undergraduates Multivariable Calculus, graded homeworks, and lead office hours.
+	\end{itemize}	
+\end{body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{-2pt}
+% Research
+\header{Research}
+\begin{body}
+
+%Hellerstein Research 
+\textbf {Berkeley Orders Of Magnitude (BOOM): Bloom} 
+%\emph{Berkeley,CA} 
+\hfill \emph{February 2015 - Present}
+\vspace*{-4pt}
+\begin{itemize}
+	\itemsep -2pt
+	\item[] Advisor: Professor Joe Hellerstein, EECS 
+	\item[] Bloom is designed to avoid the traditional mismatches between distributed platforms and sequential programming languages. It features a "disorderly" approach to program state and logic, which encourages data-centric parallel thinking. 
+	\end{itemize}
+
+% ICT Research
+\textbf {Berkeley Represent: Information Technologies for Farmers} 
+%\emph{Berkeley,CA} 
+\hfill \emph{August 2014 - May 2015}
+\vspace*{-4pt}
+\begin{itemize}
+	\itemsep -2pt
+	\item[] Advisor: Professor Tapan Parikh, School of Information
+	\item[] Selected by Computing Research Association for National Science Foundations's funding
+	\item[] Designed smart rainfall measurement system to increase Kenyan smallholder farmers' access to markets and knowledge. Contributed to a data science initiative to analyze Avaaj Otalo, a voice based social media for farmers in Gujarat, India. 
+\end{itemize}
+
+\textbf{Berkeley Energy and Sustainable Technologies (BEST) : Smart Lighting Systems}
+ \hfill \emph{February 2013  - June 2014}\\
+	\vspace*{-4pt}	
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+	\itemsep -2pt
+	\item[] Advisor: Professor Alice Agogino, Mechanical Engineering
+		\item[] Developed a new lighting system, that builds a predictive model of a room to effectively allow lights to adapt to occupant demands. Designed multi-hop network to a local server to implement computations for light level predictions and optimal sensor placement. Developed indoor lighting inverse model, SQLite database for linear regression models and user-friendly installation program.
+		\end{itemize}
+\end{body}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{-2pt}
+% Publications
+\header{Publications}
+\begin{body}
+
+% 1 
+\textbf {Sensor-Based Predictive Modeling for Smart Lighting in Grid-Integrated Buildings}\\ 
+\emph{Basu, C., Caubel, J.J. , Kyunam Kim, Cheng, E., Dhinakaran, A., Agogino, A.M.,Martin, R.A.} \\
+{IEEE Sensors Journal (Volume: 14 , Issue: 12), 2014. }\\
+
+$ $\\
+
+% 2
+\textbf {Affordable and Personalized Lighting using Inverse Modeling and Virtual Sensors}\\
+\emph{Chandrayee Basu; Benjamin Chen; Jacob Richards; Aparna Dhinakaran; Alice Agogino; Rodney Martin.} \\
+{Proceedings of SPIE, Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems, 2014}
+\end{body}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace*{-2pt}
+% Projects
+\header{Selected Projects}
+\begin{body}
+
+
+ %Best Regards
+	\textbf {Smart Storybook: {\url{http://expresso.cearto.com/}}}
+    \vspace*{-3pt}
+    \begin{itemize}
+    \item[] An augmented environment coordinator for storytelling. Smart Storybook polls devices in a room for storytelling capabilities (e.g. light, sound, smell) and contributes a content creation tool that synthesizes output into a unique storytelling experience.
+    \end{itemize}
+    %\end{body}
+
+ %Best Regards
+	\textbf {BestRegards : Handwritten Thank You Cards Generator}
+    %\emph{Partners: Aparna Dhinakaran, Krishna Parashar}
+    \vspace*{-3pt}
+    \begin{itemize}
+    \item[] Developed a web service that automates handwritten thank you cards using Maillift's API and Ruby on Rails. Implemented a custom-built JQuert calculator that informs how much time users would save. Integrated Stripe's API to accept payments.
+    \end{itemize}
+    \end{body}
+
+%\end{body}
+
+% \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Relevant Coursework
+%\vspace*{-2pt}
+%\header{Coursework}
+%
+%\begin{body}
+%	\vspace{-10pt}
+%	
+%\begin{multicols}{3}
+%	\begin{itemize}
+%      \itemsep -2pt
+%      \item Artificial Intelligence
+%      \item Machine Structures
+%      \item Data Structures
+%      \item Discrete Mathematics \& Probability
+%      \item Signals and Systems
+%      \item Efficient Algorithms
+%      \item Microelectronic Circuits
+%      \item Technology Entrepreneurship
+%      \item Structure of Computer Programs
+%    \end{itemize}
+%\end{multicols}
+%
+%	\vspace{-11pt}	
+%	\end{body}
+
+
+% \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Activities
+\vspace*{-2pt}
+\header{Activities}
+
+\begin{body}
+	\vspace{-1pt}
+	
+	\textbf{Speech and Debate: }{ Ranked Distinction by National Forensics League}\\
+	\textbf{Ballet: }{ Completed Advanced Pointe training and certified by Mission Dance and Performing Arts Studio}\\
+	\textbf{Saraswathi Ammal Charitable Trust: }{ Raised over 6000 dollars towards the orphanage's education}\\
+	\textbf{Cal N.E.R.D.S.}{ Researcher for CAL New Experiences for Research and Diversity in Science}
+	
+%	\textbf{Speech and Debate}
+%    \vspace*{-5pt}
+%	\begin{itemize}[label=\hfill ]
+%   	\item[] Ranked Distinction by National Forensics League
+%	\end{itemize}
+%
+%	\vspace{-5pt}
+%	\textbf{Saraswathi Ammal Charitable Trust}  \hfill \emph{June 2010 - August 2012}
+%    \vspace*{-5pt}
+%	\begin{itemize}[label=\hfill ]
+%   	\item Raised over 6000 dollars towards the orphanage's education 
+%	\end{itemize}
+	
+%        \vspace{-5pt}
+%        \textbf{Ballet}  \hfill \emph{August 2002 - June 2011}
+%    \vspace*{-5pt}
+%	\begin{itemize}[label=\hfill ]
+%   	\item[] Completed Advanced Pointe training and certified by Mission Dance and Performing Arts Studio
+%	\end{itemize}
+%            
+	\end{body}
+
+\end{document}

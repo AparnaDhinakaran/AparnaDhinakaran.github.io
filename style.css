@@ -46,3 +46,10 @@ a:hover {
   margin: auto auto auto auto;
   line-height: 1.5em;
 }
+
+img {
+    top: 50%;
+    left: 50%;
+    margin-left: -(600/2)px;
+    margin-top: -(500/2)px;
+}
