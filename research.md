@@ -73,9 +73,10 @@ Inspired to integrate our computer science knowledge with real-world problems, w
 
 <div class="researchtext">
 The Berkeley Energy and Sustainable Technologies Laboratory [(BEST Lab)](http://best.berkeley.edu) has demonstrated that retrofitting zonal lighting control systems with wirelessly actuated, user-controlled, individually dimmable luminaires in offices can save 50% of the office’s electricity usage. “User-centric model-predictive lighting retrofit system” is an innovative approach to address the current deficiencies in intelligent lighting retrofits and also adds novel capabilities to the retrofitted system. Our primary contribution is in the development of a new framework/method for retrofitting that includes a combination of new hardware and software components. I worked on the software implementation of this project, from the database infrastructure, regression models, and K-Means clustering.
+
+For more information, click [here](http://best.berkeley.edu/2013/07/19/375/).
 </div>
 
-For more information, click [here](http://best.berkeley.edu/2013/07/19/375/)
 <p style="clear: both;">
 
 -------
@@ -95,5 +96,4 @@ Publications
 Poster
 ------------
 
-[![](img/smart_lighting_final.jpg "Smart Lighting"){class=profile width=800px }][docs/posters/smart-lighting-poster.pdf]
-
+[![](img/smart_lighting_final.jpg "Smart Lighting"){class=profile width=800px }](docs/posters/smart-lighting-poster.pdf)
