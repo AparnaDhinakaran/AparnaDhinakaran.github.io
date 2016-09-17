@@ -3,7 +3,7 @@ title: Aparna Dhinakaran
 ---
 
 
-![](img/profile.png "This is me."){class=profile width=300px }
+![](img/profile.jpg "This is me."){class=profile width=300px }
 
 Hi! I am a recent graduate from [UC Berkeley EECS](https://eecs.berkeley.edu) undergraduate program. Currently, I am a researcher in [Professor Claire Tomlin's](https://people.eecs.berkeley.edu/~tomlin/) [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu).
 
