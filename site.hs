@@ -27,6 +27,10 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "docs/posters/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "img/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -45,10 +49,6 @@ main = hakyllWith config $ do
 
 
 --------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
 
 config = defaultConfiguration {
           deployCommand = "git stash &&" ++
