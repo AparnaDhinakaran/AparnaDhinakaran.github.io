@@ -5,7 +5,7 @@ title: Aparna Dhinakaran
 
 ![](img/profile.jpg "This is me."){class=profile width=300px }
 
-Hi! I am a recent graduate from [UC Berkeley EECS](https://eecs.berkeley.edu) undergraduate program. Currently, I am a researcher in [Professor Claire Tomlin's](https://people.eecs.berkeley.edu/~tomlin/) [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu).
+Hi! I am a recent graduate from [UC Berkeley EECS](https://eecs.berkeley.edu) undergraduate program. Currently, I am a researcher in Professor [Claire Tomlin's](https://people.eecs.berkeley.edu/~tomlin/) [Hybrid Systems Lab](http://hybrid.eecs.berkeley.edu).
 
 My current research interests are in automation, control theory, power & energy systems, and unmanned aerial vehicles.
 
@@ -14,4 +14,4 @@ My current research interests are in automation, control theory, power & energy 
 Contact
 --------
 
-Email me at aparnadhinak at gmail dot com
+Email me at aparnadhinak at gmail dot com.
