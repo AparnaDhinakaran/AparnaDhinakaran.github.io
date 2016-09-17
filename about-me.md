@@ -9,9 +9,9 @@ Hi! I was born in Chennai, India and moved to Boston, Massachusetts when I was 6
 
 Outside of research, I love tennis and crew. I played tennis competitively in USTA throughout high school. I was part of CAL Lightweight Crew during undergrad.
 
-![](img/tennis.jpg "Tennis."){class=tennis width=400px }
+![](img/tennis.jpg "Tennis."){class=tennis width=47% }
 
-![](img/crew_2.jpg "Crew."){class=crew width=400px }
+![](img/crew_2.jpg "Crew."){class=crew width=47% }
 
 Apart from sports, for over 10 years, I trained in ballet at [Mission Dance and Perfoming Arts](http://missiondancefremont.com).
 
