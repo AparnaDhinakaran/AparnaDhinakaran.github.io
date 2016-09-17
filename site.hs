@@ -55,14 +55,13 @@ config = defaultConfiguration {
                           " git checkout develop &&" ++
                           " stack exec site clean &&" ++
                           " stack exec site build &&" ++
-                          -- " git fetch --all &&" ++
                           " git checkout master &&" ++
                           " rsync -a --filter='P _site/' \
                                     \--filter='P _cache/' \
                                     \--filter='P .git/' \
                                     \--filter='P .gitignore' \
                                     \--delete-excluded _site/ . && " ++
-                          " echo \"Updated site.\" " ++
+                          " echo 'Updated site.' " ++
                           " git add . && " ++
                           " git commit -m \"Publish.\" && " ++
                           " git push origin master:master; " ++

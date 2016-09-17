@@ -96,4 +96,4 @@ Publications
 Poster
 ------------
 
-[![](img/smart_lighting_final.jpg "Smart Lighting"){class=profile width=800px }](docs/posters/smart-lighting-poster.pdf)
+[![](img/smart_lighting_final.jpg "Smart Lighting"){class=profile width=800px }](/docs/posters/smart_lighting_poster.pdf)
