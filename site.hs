@@ -61,7 +61,7 @@ config = defaultConfiguration {
                                     \--filter='P .git/' \
                                     \--filter='P .gitignore' \
                                     \--delete-excluded _site/ . && " ++
-                          " echo 'Updated site.' " ++
+                          " echo 'Updated site.'; " ++
                           " git add . && " ++
                           " git commit -m \"Publish.\" && " ++
                           " git push origin master:master; " ++
