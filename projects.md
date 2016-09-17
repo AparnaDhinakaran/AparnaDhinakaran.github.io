@@ -1,6 +1,0 @@
----
-title: Projects
----
-
-Insert projects
-
