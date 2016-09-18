@@ -15,7 +15,7 @@ Current Research
 
 <div class="researchtext">
 Unmanned aerial vehicles(UAVs) are becoming immensely popular. As more projects like Amazon Prime Air and Google Project Wing begin to use UAVs for civilian services, Unmanned aerial systems Traffic Management (UTM) is needed to manage potentially thousands of flying vehicles to guarantee liveness and safety requirements. Using Hamilton-Jacobi (HJ) reachability analysis, airspace structure, and higher-level logic, safety and liveness for large numbers of vehicles can be guaranteed. One such approach is through [platooning](http://arxiv.org/abs/1503.07253). I am working on the hardware implementation using [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/) as a proof of concept.
-</div>  
+</div>
 <p style="clear: both;">
 
 
@@ -32,7 +32,7 @@ Hamilton-Jacobi (HJ) reachability has successfully provided safety guarantees to
 
 
 #### Regression-based Inverter Control for Optimal Power Flow & Voltage Regulation
-##### Collaborators: [Roel Dobbe](https://www.linkedin.com/in/glen-chou-457292116)
+##### Collaborators: [Roel Dobbe](https://people.eecs.berkeley.edu/~dobbe/about.html)
 ![](img/regression.png "Regression Based Inverter Control Design"){class=project-pic width=400px}
 
 <div class="researchtext">
@@ -84,10 +84,10 @@ For more information, click [here](http://best.berkeley.edu/2013/07/19/375/).
 Publications
 ------------
 
-* [**Sensor-based predictive modeling for smart lighting in grid-integrated buildings**](http://ieeexplore.ieee.org/document/6883131/)  
+* [**Sensor-based predictive modeling for smart lighting in grid-integrated buildings**](http://ieeexplore.ieee.org/document/6883131/)
     Chandrayee Basu, Julien J Caubel, Kyunam Kim, Elizabeth Cheng, *Aparna Dhinakaran*, Alice Agogino, and Rodney Martin. IEEE Sensors Journal 2014.
 
-* [**Affordable and personalized lighting using inverse modeling and virtual sensors**](http://spie.org/Publications/Proceedings/Paper/10.1117/12.2048681)  
+* [**Affordable and personalized lighting using inverse modeling and virtual sensors**](http://spie.org/Publications/Proceedings/Paper/10.1117/12.2048681)
     Chandrayee Basu, Benjamin Chen, Jacob Richards, *Aparna Dhinakaran*, Alice Agogino, Rodney Martin. SPIE 2014.
 
 
