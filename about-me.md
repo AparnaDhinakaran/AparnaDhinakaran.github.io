@@ -19,8 +19,4 @@ Throughout college, I was a part of [CAL Nerds](http://calnerds.berkeley.edu) an
 
 If any of these sound interesting to you, don't hesistate to reach out. I'd love to meet up and grab coffee :)
 
-Here's some other internet-links about me:
-
-[Github](https://github.com/AparnaDhinakaran)
-[Linkedin](https://www.linkedin.com/in/aparnadhinakaran)
 
