@@ -32,7 +32,7 @@ Hamilton-Jacobi (HJ) reachability has successfully provided safety guarantees to
 
 
 #### Regression-based Inverter Control for Optimal Power Flow & Voltage Regulation
-##### Collaborators: [Roel Dobbe](https://people.eecs.berkeley.edu/~dobbe/about.html)
+##### Collaborators: [Roel Dobbe](https://people.eecs.berkeley.edu/~dobbe/index.html)
 ![](img/regression.png "Regression Based Inverter Control Design"){class=project-pic width=400px}
 
 <div class="researchtext">
@@ -42,7 +42,7 @@ Electronic power inverters can quickly deliver reactive power to regulate voltag
 
 
 #### Cal Renewable and Adaptive Energy Micro-Grid Analysis
-##### Collaborators: [Fujia Zhang](https://www.linkedin.com/in/fujia-zhang-b8733b95) & [Jalel Sager](http://newsunroad.com/#people)
+##### Collaborators: [Fujia Zhang](https://www.linkedin.com/in/fujia-zhang-b8733b95) & Jalel Sager
 ![](img/calrae.png "Kitoba Grid User Power Signature"){class=project-pic width=300px}
 
 <div class="researchtext">
@@ -72,28 +72,9 @@ Inspired to integrate our computer science knowledge with real-world problems, w
 ![](img/best.png "Smart Lighting Project."){class=project-pic width=300px}
 
 <div class="researchtext">
-The Berkeley Energy and Sustainable Technologies Laboratory [(BEST Lab)](http://best.berkeley.edu) has demonstrated that retrofitting zonal lighting control systems with wirelessly actuated, user-controlled, individually dimmable luminaires in offices can save 50% of the office’s electricity usage. “User-centric model-predictive lighting retrofit system” is an innovative approach to address the current deficiencies in intelligent lighting retrofits and also adds novel capabilities to the retrofitted system. Our primary contribution is in the development of a new framework/method for retrofitting that includes a combination of new hardware and software components. I worked on the software implementation of this project, from the database infrastructure, regression models, and K-Means clustering.
+The Berkeley Energy and Sustainable Technologies Laboratory [(BEST Lab)](http://best.berkeley.edu) has demonstrated that retrofitting zonal lighting control systems with wirelessly actuated, user-controlled, individually dimmable luminaires in offices can save 50% of the office’s electricity usage. “User-centric model-predictive lighting retrofit system” is an innovative approach to address the current deficiencies in intelligent lighting retrofits and also adds novel capabilities to the retrofitted system. Our primary contribution is in the development of a new framework/method for retrofitting that includes a combination of new hardware and software components. I worked on the software implementation of this project, which included the database infrastructure, regression models, and K-Means clustering, and installation software.
 
 For more information, click [here](http://best.berkeley.edu/2013/07/19/375/).
 </div>
 
 <p style="clear: both;">
-
--------
-
-Publications
-------------
-
-* [**Sensor-based predictive modeling for smart lighting in grid-integrated buildings**](http://ieeexplore.ieee.org/document/6883131/)
-    Chandrayee Basu, Julien J Caubel, Kyunam Kim, Elizabeth Cheng, *Aparna Dhinakaran*, Alice Agogino, and Rodney Martin. IEEE Sensors Journal 2014.
-
-* [**Affordable and personalized lighting using inverse modeling and virtual sensors**](http://spie.org/Publications/Proceedings/Paper/10.1117/12.2048681)
-    Chandrayee Basu, Benjamin Chen, Jacob Richards, *Aparna Dhinakaran*, Alice Agogino, Rodney Martin. SPIE 2014.
-
-
--------
-
-Poster
-------------
-
-[![](img/smart_lighting_final.jpg "Smart Lighting"){class=profile width=800px }](/docs/posters/smart_lighting_poster.pdf)
